@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/green_700"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_avatar"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nick_name"
+            android:textSize="14sp"
+            android:text="wjl"
+            android:layout_below="@id/iv_avatar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/tv_nick_name"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_gender"
+                android:textSize="14sp"
+                android:text="男"
+                android:layout_below="@id/iv_avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/tv_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="18岁"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_city"
+                android:textSize="14sp"
+                android:text="武汉"
+                android:layout_below="@id/iv_avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_account"
+            android:text="昵称"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_account_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:text="wjl"
+            android:layout_alignBaseline="@id/tv_account"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:background="@drawable/edit_bg"
+            android:textSize="20sp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_birth_time"
+            android:text="生日"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/tv_birth_time_text"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:text="2005.12.24"
+            android:layout_alignBaseline="@id/tv_birth_time"
+            android:background="@drawable/edit_bg"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_home"
+            android:layout_centerVertical="true"
+            android:text="地区"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/tv_home_text"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text="武汉"
+            android:layout_alignBaseline="@id/tv_home"
+            android:background="@drawable/edit_bg"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_school"
+            android:layout_centerVertical="true"
+            android:text="学校"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/tv_school_text"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text="华中科技大学"
+            android:layout_alignBaseline="@id/tv_school"
+            android:background="@drawable/edit_bg"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_sign"
+            android:layout_centerVertical="true"
+            android:text="个性签名"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/tv_sign_text"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text="哈哈哈哈哈哈"
+            android:layout_alignBaseline="@id/tv_sign"
+            android:background="@drawable/edit_bg"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_bg"
+        android:onClick="bianji"
+        android:text="编辑资料"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:background="@drawable/button_bg"-->
+<!--        android:text="退出登录"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:onClick="logout"-->
+<!--        />-->
+
+</LinearLayout>
+</ScrollView>
