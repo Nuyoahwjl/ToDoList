@@ -1,5 +1,3 @@
 ### [![](https://skillicons.dev/icons?i=androidstudio,)](https://skillicons.dev) A ToDoList by Android Studio.
-![demo](https://cdn.jsdelivr.net/gh/Nuyoahwjl/ToDoList/demo.gif)
-<p align=left
-  <img src="https://cdn.jsdelivr.net/gh/Nuyoahwjl/ToDoList/demo.gif" width="400" >
-  </p>
+<img src="https://cdn.jsdelivr.net/gh/Nuyoahwjl/ToDoList/demo.gif" width="200" height="150" alt="Demo GIF">
+
